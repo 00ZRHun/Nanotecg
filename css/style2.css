@@ -1,0 +1,499 @@
+/* ////////// */
+/* index.html */
+/* ////////// */
+
+/* Cover */
+.greyBackground {
+    background-color: #212121;
+    width: 100%;
+    height: 100%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url('../imgs/cover.webp');
+
+    /* Full height */
+    height: 100%; 
+
+    /* Set width, center */
+    display: block;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding-left: auto;
+    padding-right: auto;
+    width: 83%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div.center {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.center>center.text-center {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    /* transform: translate(-50%, -100%) // (-50%, -500px); */
+    transform: translate(-50%, -150%);
+    
+    /* text-align: center; */
+    /* z-index: 1; */
+}
+/* /Cover */
+
+/* About Us */
+section {
+    margin: 2%;
+    padding: 3%;
+}
+
+section>div {
+    margin: 2%;
+    /* padding: 5%; */
+}
+
+/* Desktop View */
+@media only screen and (min-width: 601px) {
+/* @media only screen and (max-width: 800px) { */
+    /* Parallax */
+    .parallax1 {
+        /* The image used */
+        background-image: url("../imgs/parallaxs/parallax01.webp");
+
+        /* Set a specific height */
+        /* min-height: 250px; 
+        max-height: 250px; */
+        
+        /* background-color: #cccccc; */
+        
+        height: 550px;
+        /* height: 200%; */
+        /* min-height: 450px;  */
+
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        /* background-position: center // center center // left // right // left 25px top 5px; */
+        /* background-position: right 25px top 0px; */
+        background-position: right 0px top 0px;
+        background-repeat: no-repeat;
+        /* background-size: cover // auto // 50% // 500px auto; */
+        background-size: 50% auto;
+        -moz-background-size: 50% auto; 
+        -webkit-background-size: 50% auto; 
+        /* background-size: contain;
+        -moz-background-size: contain; 
+        -webkit-background-size: contain;  */
+        /* background-size: cover;
+        -moz-background-size: cover; 
+        -webkit-background-size: cover; 
+        position: relative; */
+
+        /* padding-right: 15px;
+        padding-bottom: 0px;
+        margin-bottom: 0px; */
+        text-align: center;
+
+        width: 100%;
+        float: right;
+    }
+
+    .parallax2 {
+        /* The image used */
+        background-image: url("../imgs/parallaxs/parallax02.webp");
+
+        /* Set a specific height */
+        /* min-height: 250px;  */
+        /* min-height: 450px;  */
+        height: 550px;
+        /* min-width: 50%; 
+        max-height: 250px; 
+        max-width: 50%;  */
+
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed; 
+        /* background-position: center // center center // left // right // left 25px top 5px; */
+        /* background-position: left 25px top 0px; */
+        background-position: left 0px top 0px;
+        background-repeat: no-repeat; 
+        /* background-size: cover // auto // 50% // 500px auto; */
+        background-size: 50% auto; 
+        -moz-background-size: 50% auto; 
+        -webkit-background-size: 50% auto; 
+
+        /* padding-top: 200px; 
+        padding-bottom: 200px;  */
+        /* overflow: hidden; 
+        position: relative;  */
+        
+        /* left: 50px; */
+        /* padding-left: 50px; */
+        text-align: center;
+        
+        width: 100%;
+        float: left;
+    }
+
+    .parallax3 {
+        /* The image used */
+        background-image: url("../imgs/parallaxs/parallax03.webp");
+
+        /* Set a specific height */
+        height: 550px;
+        
+        /* background-color: #cccccc; */
+
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        /* background-position: center // center center // left // right // left 25px top 5px; */
+        /* background-position: right 25px bottom 10px; */
+        background-position: right 0px bottom 0px;
+        background-repeat: no-repeat;
+        /* background-size: cover // auto // 50% // 500px auto; */
+        background-size: 50% auto;
+        -moz-background-size: 50% auto; 
+        -webkit-background-size: 50% auto;
+        position: relative;
+
+        /* padding-right: 15px;
+        padding-bottom: 0px;
+        margin-bottom: 0px; */
+        
+        text-align: center;
+
+        width: 100%;
+        float: right;
+    }       
+    /* /Parallax */
+
+    /* Contact Us */
+    .parallax4 {
+        /* The image used */
+        background-image: url("../imgs/parallaxs/parallax04.png");
+
+        /* Set a specific height */
+        /* min-height: 250px;  */
+        /* min-height: 450px;  */
+        height: 425px;
+        /* min-width: 50%; 
+        max-height: 250px; 
+        max-width: 50%;  */
+
+        /* Create the parallax scrolling effect */
+        /* background-attachment: fixed // scroll;  */
+        background-attachment: scroll; 
+        /* background-position: center // center center // left // right // left 25px top 5px; */
+        /* background-position: left 25px top 0px; */
+        /* background-position: left 0px top 0px; */
+        background-position: center;
+        background-repeat: no-repeat; 
+        /* background-size: cover // auto // 50% // 500px auto; */
+        background-size: 100% auto; 
+        -moz-background-size: 100% auto; 
+        -webkit-background-size: 100% auto; 
+
+        /* padding-top: 200px; 
+        padding-bottom: 200px;  */
+        /* overflow: hidden; 
+        position: relative;  */
+        
+        /* left: 50px; */
+        /* padding-left: 50px; */
+        text-align: center;
+        
+        width: 100%;
+        float: left;
+    }   
+    /* /Contact Us */
+}
+
+/* Mobile View */
+/* If the screen size is 600px or less, set the font-size of <div> to 30px */
+@media only screen and (max-width: 600px) {
+    /* Text Alignment */
+    .col-lg-6.col-md-6.col-sm-12.pl-5.pt-3{
+        margin: 0px !important;
+        padding: 0px !important;
+    }
+
+    center {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    div.mx-3 {
+        text-align: center !important;
+        /* color: red; */
+        width: 90% !important;
+        margin: 0px !important;
+        padding: 0px !important;
+        font-size: 18px !important;
+        line-height: 25px !important;
+
+        /* margin-left: auto;
+        margin-right: auto; */
+    }
+    /* /Text Alignment */
+
+    /* Change Div Order */
+    #changeOrder {
+        display: flex !important;
+        flex-flow: column !important;
+    }
+
+    #changeOrder>div:nth-child(1) {
+        order: 2 !important;
+    }
+
+    #changeOrder>div:nth-child(2) {
+        order: 1 !important;
+    }
+    /* /Change Div Order */
+
+    /* Parallax */
+    .parallax1 {
+        /* The image used */
+        background-image: url("../imgs/parallaxs/parallax01.webp");
+
+        /* Set a specific height */
+        /* min-height: 250px; 
+        max-height: 250px; */
+        
+        /* height: 550px; */
+        height: 250px;
+        /* height: 200%; */
+        /* min-height: 450px;  */
+
+        /* Create the parallax scrolling effect */
+        /* background-attachment: scroll; */
+        background-attachment: fixed;
+        /* background-position: center // center center // left // right // left 25px top 5px; */
+        background-position: right 25px bottom 10px;
+        background-repeat: no-repeat;
+        /* background-size: cover // contain // auto // 50% // 500px auto; */
+        background-size: 100% auto;
+        -moz-background-size: 100% auto; 
+        -webkit-background-size: 100% auto;
+        position: relative;
+
+        /* padding-right: 15px;
+        padding-bottom: 0px;
+        margin-bottom: 0px; */
+        text-align: center;
+
+        width: 100%;
+        float: right;
+    }
+    
+    .parallax2 {
+        /* The image used */
+        background-image: url("../imgs/parallaxs/parallax02.webp");
+
+        /* Set a specific height */
+        /* min-height: 250px;  */
+        /* min-height: 450px;  */
+        height: 250px;
+        /* min-width: 50%; 
+        max-height: 250px; 
+        max-width: 50%;  */
+
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed; 
+        /* background-position: center // center center // left // right // left 25px top 5px; */
+        background-position: left 25px top 10px;
+        background-repeat: no-repeat; 
+        /* background-size: cover // auto // 50% // 500px auto; */
+        background-size: 100% auto; 
+        -moz-background-size: 100% auto; 
+        -webkit-background-size: 100% auto; 
+
+        /* padding-top: 200px; 
+        padding-bottom: 200px;  */
+        /* overflow: hidden; 
+        position: relative;  */
+        
+        /* left: 50px; */
+        /* padding-left: 50px; */
+        text-align: center;
+        
+        width: 100%;
+        float: right !important;
+    }
+
+    .parallax3 {
+        /* The image used */
+        background-image: url("../imgs/parallaxs/parallax03.webp");
+
+        /* Set a specific height */
+        height: 250px;
+        
+        /* background-color: #cccccc; */
+
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        /* background-position: center // center center // left // right // left 25px top 5px; */
+        background-position: right 25px bottom 10px;
+        background-repeat: no-repeat;
+        /* background-size: cover // auto // 50% // 500px auto; */
+        background-size: 100% auto;
+        -moz-background-size: 100% auto; 
+        -webkit-background-size: 100% auto;
+        position: relative;
+
+        /* padding-right: 15px;
+        padding-bottom: 0px;
+        margin-bottom: 0px; */
+        
+        text-align: center;
+
+        width: 100%;
+        float: right;
+    }
+
+    .parallax4 {
+        /* The image used */
+        background-image: url("../imgs/parallaxs/parallax04.png");
+
+        /* Set a specific height */
+        /* min-height: 250px;  */
+        /* min-height: 450px;  */
+        height: 250px;
+        /* min-width: 50%; 
+        max-height: 250px; 
+        max-width: 50%;  */
+
+        /* Create the parallax scrolling effect */
+        background-attachment: scroll; 
+        /* background-position: center // center center // left // right // left 25px top 5px; */
+        /* background-position: left 0px top 0px; */
+        background-position: center;
+        background-repeat: no-repeat; 
+        /* background-size: cover // auto // 50% // 500px auto; */
+        background-size: 100% auto; 
+        -moz-background-size: 100% auto; 
+        -webkit-background-size: 100% auto; 
+
+        /* padding-top: 200px; 
+        padding-bottom: 200px;  */
+        /* overflow: hidden; 
+        position: relative;  */
+        
+        /* left: 50px; */
+        /* padding-left: 50px; */
+        text-align: center;
+        
+        width: 100%;
+        float: right !important;
+    }
+    /* /Parallax */
+}
+/* /About Us */
+
+/* Our Products */
+/* style="background-color: white; border-radius: 20px; font-size: 30px; margin-bottom: 5.1%;" */
+div.ourProducts button, .learnMoreBtn {
+    background-color: white; 
+    border-radius: 20px; 
+    font-size: 30px; 
+    margin-bottom: 5.1%;
+    height: auto;
+}
+
+hr {
+    color: grey;
+    background-color: grey;
+}
+
+div.row {
+    /* background-color: grey; */
+    background-color: #212121;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+ul>li {
+    list-style-type: none;
+    margin-bottom: 3px;
+}
+/* /Our Products */
+
+/* Contact Us */
+a {
+    color: white;
+    text-decoration: underline;
+}
+/* /Contact Us */
+
+
+
+/* ////////// */
+/* 3 products */
+/* ////////// */
+/* div.product>img { */
+div.product img {
+    width: 37.5%;
+    height: auto;
+}
+
+/* Desktop View */
+@media only screen and (min-width: 601px) {
+    div.product h1 {
+        margin-top: 13%; 
+        /* margin-left: 10%; */ 
+        /* margin: 10% 10% 5% 10%; */
+
+        color: white;
+        text-align: center;
+    }
+}
+
+/* Mobile View */
+@media only screen and (max-width: 600px) {
+    div.product h1 {
+        /* margin-top: 10%; 
+        margin-left: 10%; */ 
+        /* margin: 35% auto 5% auto !important; */
+        /* padding-left: 0% !important; */
+        /* margin-left: 0% !important; */
+        margin-top: 33%; 
+        text-align: center !important;
+        color: white;
+        font-size: large;
+    }
+}
+
+/* div.product>center>a>button { */
+div.product button {
+    /* <button type="button // submit" 
+    class="btn btn-lg rouded-circle // btn btn-secondary btn-lg 
+        // mb-5 // btn btn-lg py-1 // d-flex justify-content-center" 
+    style="background-color: white; border-radius: 20px; 
+        font-size: xx-large // 30px;" 
+    disabled
+    >
+        Button
+    </button> */
+    background-color: white; 
+    border-radius: 20px; 
+    font-size: 30px; 
+    margin-bottom: 5.1%; 
+    height: auto;
+}
+
+/* .container {
+    margin-top: 30%;
+} */
