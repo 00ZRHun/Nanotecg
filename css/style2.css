@@ -1,6 +1,9 @@
 /* ////////// */
 /* index.html */
 /* ////////// */
+h1 {
+    font-size: xx-large;
+}
 
 /* Cover */
 .greyBackground {
@@ -274,8 +277,8 @@ section>div {
         /* min-height: 450px;  */
 
         /* Create the parallax scrolling effect */
-        /* background-attachment: scroll; */
-        background-attachment: fixed;
+        /* background-attachment: fixed // scroll; */
+        background-attachment: scroll;
         /* background-position: center // center center // left // right // left 25px top 5px; */
         background-position: right 25px bottom 10px;
         background-repeat: no-repeat;
@@ -307,7 +310,8 @@ section>div {
         max-width: 50%;  */
 
         /* Create the parallax scrolling effect */
-        background-attachment: fixed; 
+        /* background-attachment: fixed // scroll; */
+        background-attachment: scroll;
         /* background-position: center // center center // left // right // left 25px top 5px; */
         background-position: left 25px top 10px;
         background-repeat: no-repeat; 
@@ -339,7 +343,8 @@ section>div {
         /* background-color: #cccccc; */
 
         /* Create the parallax scrolling effect */
-        background-attachment: fixed;
+        /* background-attachment: fixed // scroll; */
+        background-attachment: scroll;
         /* background-position: center // center center // left // right // left 25px top 5px; */
         background-position: right 25px bottom 10px;
         background-repeat: no-repeat;
@@ -445,7 +450,8 @@ a {
 /* ////////// */
 /* div.product>img { */
 div.product img {
-    width: 37.5%;
+    /* width: 37.5%; */
+    width: 75%;
     height: auto;
 }
 
@@ -472,7 +478,7 @@ div.product img {
         margin-top: 33%; 
         text-align: center !important;
         color: white;
-        font-size: large;
+        /* font-size: larger; */
     }
 }
 

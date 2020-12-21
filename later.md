@@ -19,3 +19,14 @@ VOCA
 
 ===
 A firm’s short-run production function is given by
+
+
+///
+1. About Us
+    Our Products
+
+2. link ///
+
+3. scroll (parallax 1-3 in mobile view)///
+
+4. product larger ///
