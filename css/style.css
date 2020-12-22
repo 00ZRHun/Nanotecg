@@ -110,7 +110,7 @@ iframe {
 /* .container-sm {
     margin: 5%;
 } *//* margin: 3% 5%; */
-
+/* Form */
 form>div>div>input[type="text"], input[type="email"], input#phone {
     border: 1px solid white;
     color: white;
@@ -119,6 +119,15 @@ form>div>div>input[type="text"], input[type="email"], input#phone {
     width: 100%;
     size: 100%;
 }
+
+form>div>div>input[type="submit"] {
+    font-size: larger;
+}
+
+.red {
+    color: red;
+}
+/* /Form */
 
 /* unvisited link */
 a:link {
@@ -206,3 +215,43 @@ a:active {
     height: 3000px
 }
 /* /Back To Top */
+
+/* Ouibounce */
+/* Ouibounce */
+.modal-dialog {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-right: auto;
+    margin-left: auto;
+    width: 90%; 
+    height: auto;
+    /* min-height: 90%; */
+}
+
+.modal-dialog .modal-title {
+    color: black !important;
+    background-color: white !important;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.modal-dialog .learnMoreBtn { 
+    color: white;
+    background-color: #212121;
+    opacity: 0.8;
+    /* width: fit-content;
+    margin-left: auto !important;
+    margin-left: auto !important; */
+}
+.modal-dialog .learnMoreBtn:hover { 
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+    opacity: 1;
+}
+    
+
+/* /Ouibounce Modal */
+/* /Ouibounce Modal */
