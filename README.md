@@ -55,3 +55,7 @@
 
 12. Other 3 products page
     - almost the SAME CONCEPT above is applied
+
+
+* source from https://ddonlineservices.wixsite.com/nanotecg 
+  [convert into coding from Wix page builder -> save budget on annual domain fee]
